@@ -4,9 +4,6 @@ source_hostname=$(hostname | cut -c1-6)
 
 welcome() {
 echo -e "\e[4;34mKV to KV between Datacenters\e[0m"
-echo -e "Before you starting the script:"
-echo -e "\e[1;33mcreate a rule in the DESTINATION datacenter firewall before starting the copy.\e[0m"
-echo -e "\e[1;31mGet permission from the infrastructure team if you copy between datacenters in IL.\e[0m"
 }
 
 
